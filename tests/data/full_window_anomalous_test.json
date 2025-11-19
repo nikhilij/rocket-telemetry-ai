@@ -1,0 +1,604 @@
+{
+  "events": [
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:37:25.770840Z",
+      "metric": "engine_temp",
+      "value": 2767.8782048441244
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:37:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2583.0349804134094
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:37:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2635.752948514171
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:37:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2651.074357683504
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:37:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2622.1093392548237
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:37:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2633.910221929257
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2618.3242144670407
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2728.9488899782973
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2639.3462814337627
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2666.5974044033896
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:25.770840Z",
+      "metric": "engine_temp",
+      "value": 2725.4658951936326
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2725.012996114141
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2587.542013691367
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2624.165714861963
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2631.3843049471984
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:38:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2716.939852546173
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2630.3025041670417
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2644.081452657526
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2642.5835456700697
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2691.9843365068396
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:25.770840Z",
+      "metric": "engine_temp",
+      "value": 3131.473056371066
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2632.3742051060444
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2639.2327342527865
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2626.2192015796336
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2554.8338742299584
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:39:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2633.2630039737187
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2691.0062265346814
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2573.4038171948027
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2709.568044486706
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2728.9203759133943
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:25.770840Z",
+      "metric": "engine_temp",
+      "value": 2710.0426257835798
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2669.2655765751224
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2666.078009338435
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2563.326992511084
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2676.002210434834
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:40:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2583.1911443376
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2696.249351421486
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2722.441941434316
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2641.668814271248
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2625.611807340563
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:25.770840Z",
+      "metric": "engine_temp",
+      "value": 2629.9065199736688
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2692.7834450447235
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2639.236813778885
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2712.826807159016
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2621.749461365626
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:41:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2671.698287846954
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2609.7167293470493
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2648.14477574501
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2624.3463891392407
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2618.3361027311494
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:25.770840Z",
+      "metric": "engine_temp",
+      "value": 3068.9629917121583
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2666.8398546575254
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2619.681910736335
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2629.9591975654184
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2682.1002484777177
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2520.405080923734
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2725.102433413252
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2614.7252956168145
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2646.248554718122
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2573.8005275350956
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:25.770840Z",
+      "metric": "engine_temp",
+      "value": 2581.964497426602
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2585.8406012409314
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2626.7522687242918
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2633.7657241867587
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2607.464724296365
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2680.844810288188
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2576.092748486167
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2644.278699728242
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2669.4958611856755
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2631.3561099590474
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:25.770840Z",
+      "metric": "engine_temp",
+      "value": 2626.221827539281
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2734.8942027462954
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2654.659131586023
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2651.522803526251
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2607.795689519273
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2630.0239835608077
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2578.430443971768
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2610.046955061591
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2718.6730539694136
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2590.1953768819867
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:25.770840Z",
+      "metric": "engine_temp",
+      "value": 3360.0879529452604
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2568.0555072897764
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2599.2766662179665
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2665.574138861481
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2592.970464475042
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2666.273737921198
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2630.2175165420995
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2629.15640581646
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2621.259415012096
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2676.838541440246
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:25.770840Z",
+      "metric": "engine_temp",
+      "value": 2707.353904071919
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:31.770840Z",
+      "metric": "engine_temp",
+      "value": 2603.0877098199876
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:37.770840Z",
+      "metric": "engine_temp",
+      "value": 2671.1321984175584
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:43.770840Z",
+      "metric": "engine_temp",
+      "value": 2679.217913010954
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:49.770840Z",
+      "metric": "engine_temp",
+      "value": 2638.70165421308
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:55.770840Z",
+      "metric": "engine_temp",
+      "value": 2642.229567890204
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:47:01.770840Z",
+      "metric": "engine_temp",
+      "value": 2645.0801269115495
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:47:07.770840Z",
+      "metric": "engine_temp",
+      "value": 2620.601923988826
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:47:13.770840Z",
+      "metric": "engine_temp",
+      "value": 2661.710664903272
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:47:19.770840Z",
+      "metric": "engine_temp",
+      "value": 2599.8623801825966
+    }
+  ]
+}

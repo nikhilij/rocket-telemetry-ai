@@ -1,0 +1,1775 @@
+{
+  "events": [
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "engine_temp",
+      "value": 601.98,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "fuel_pressure",
+      "value": 2466.87,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "acceleration_x",
+      "value": 0.29,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "acceleration_y",
+      "value": 0.29,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "acceleration_z",
+      "value": 9.88,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "velocity",
+      "value": 0,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "altitude",
+      "value": 0,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "fuel_level",
+      "value": 100.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "battery_voltage",
+      "value": 28.45,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "gyroscope_x",
+      "value": 0.13,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "gyroscope_y",
+      "value": -0.55,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:00Z",
+      "metric": "gyroscope_z",
+      "value": 1.68,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "engine_temp",
+      "value": 732.56,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "fuel_pressure",
+      "value": 2533.84,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "acceleration_x",
+      "value": -0.17,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "acceleration_y",
+      "value": 0.21,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "acceleration_z",
+      "value": 9.65,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "velocity",
+      "value": 0,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "altitude",
+      "value": 0,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "fuel_level",
+      "value": 100.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "battery_voltage",
+      "value": 28.06,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "gyroscope_x",
+      "value": 1.22,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "gyroscope_y",
+      "value": 1.58,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:00:30Z",
+      "metric": "gyroscope_z",
+      "value": -1.01,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "engine_temp",
+      "value": 681.29,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "fuel_pressure",
+      "value": 2478.28,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "acceleration_x",
+      "value": 0.4,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "acceleration_y",
+      "value": 0.33,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "acceleration_z",
+      "value": 9.93,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "velocity",
+      "value": 10,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "altitude",
+      "value": 100,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "fuel_level",
+      "value": 98.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "battery_voltage",
+      "value": 28.12,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "gyroscope_x",
+      "value": 1.19,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "gyroscope_y",
+      "value": 0.49,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:00Z",
+      "metric": "gyroscope_z",
+      "value": 0.72,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "engine_temp",
+      "value": 709.67,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "fuel_pressure",
+      "value": 2516.55,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "acceleration_x",
+      "value": -0.15,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "acceleration_y",
+      "value": 0.32,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "acceleration_z",
+      "value": 9.64,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "velocity",
+      "value": 10,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "altitude",
+      "value": 100,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "fuel_level",
+      "value": 98.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "battery_voltage",
+      "value": 28.08,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "gyroscope_x",
+      "value": -0.79,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "gyroscope_y",
+      "value": 1.75,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:01:30Z",
+      "metric": "gyroscope_z",
+      "value": 0.11,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "engine_temp",
+      "value": 703.97,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "fuel_pressure",
+      "value": 2442.95,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "acceleration_x",
+      "value": -0.21,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "acceleration_y",
+      "value": -0.49,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "acceleration_z",
+      "value": 9.77,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "velocity",
+      "value": 20,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "altitude",
+      "value": 200,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "fuel_level",
+      "value": 97.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "battery_voltage",
+      "value": 28.85,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "gyroscope_x",
+      "value": -0.28,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "gyroscope_y",
+      "value": -0.84,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:00Z",
+      "metric": "gyroscope_z",
+      "value": 0.84,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "engine_temp",
+      "value": 702.19,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "fuel_pressure",
+      "value": 2408.55,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "acceleration_x",
+      "value": -0.11,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "acceleration_y",
+      "value": 0.43,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "acceleration_z",
+      "value": 9.8,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "velocity",
+      "value": 20,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "altitude",
+      "value": 200,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "fuel_level",
+      "value": 97.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "battery_voltage",
+      "value": 28.4,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "gyroscope_x",
+      "value": -1.99,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "gyroscope_y",
+      "value": -1.68,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:02:30Z",
+      "metric": "gyroscope_z",
+      "value": -1.58,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "engine_temp",
+      "value": 718.76,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "fuel_pressure",
+      "value": 2542.55,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "acceleration_x",
+      "value": -0.46,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "acceleration_y",
+      "value": -0.12,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "acceleration_z",
+      "value": 9.87,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "velocity",
+      "value": 30,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "altitude",
+      "value": 300,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "fuel_level",
+      "value": 95.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "battery_voltage",
+      "value": 28.7,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "gyroscope_x",
+      "value": -1.77,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "gyroscope_y",
+      "value": 0.49,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:00Z",
+      "metric": "gyroscope_z",
+      "value": 0.83,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "engine_temp",
+      "value": 648.19,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "fuel_pressure",
+      "value": 2478.76,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "acceleration_x",
+      "value": 0.05,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "acceleration_y",
+      "value": -0.4,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "acceleration_z",
+      "value": 9.76,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "velocity",
+      "value": 30,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "altitude",
+      "value": 300,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "fuel_level",
+      "value": 95.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "battery_voltage",
+      "value": 28.33,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "gyroscope_x",
+      "value": 0.33,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "gyroscope_y",
+      "value": 0.2,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:03:30Z",
+      "metric": "gyroscope_z",
+      "value": 0.87,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "engine_temp",
+      "value": 653.98,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "fuel_pressure",
+      "value": 2580.86,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "acceleration_x",
+      "value": -0.22,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "acceleration_y",
+      "value": -0.36,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "acceleration_z",
+      "value": 9.95,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "velocity",
+      "value": 40,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "altitude",
+      "value": 400,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "fuel_level",
+      "value": 94.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "battery_voltage",
+      "value": 28.68,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "gyroscope_x",
+      "value": -1.11,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "gyroscope_y",
+      "value": 0.69,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:00Z",
+      "metric": "gyroscope_z",
+      "value": -1.28,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "engine_temp",
+      "value": 634.38,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "fuel_pressure",
+      "value": 2423.66,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "acceleration_x",
+      "value": 0.13,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "acceleration_y",
+      "value": 0.16,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "acceleration_z",
+      "value": 9.57,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "velocity",
+      "value": 40,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "altitude",
+      "value": 400,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "fuel_level",
+      "value": 94.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "battery_voltage",
+      "value": 28.08,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "gyroscope_x",
+      "value": -0.41,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "gyroscope_y",
+      "value": -1.83,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:04:30Z",
+      "metric": "gyroscope_z",
+      "value": 1.94,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "engine_temp",
+      "value": 724.79,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "fuel_pressure",
+      "value": 2494.54,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "acceleration_x",
+      "value": 0.14,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "acceleration_y",
+      "value": -0.11,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "acceleration_z",
+      "value": 9.56,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "velocity",
+      "value": 50,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "altitude",
+      "value": 500,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "fuel_level",
+      "value": 92.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "battery_voltage",
+      "value": 28.57,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "gyroscope_x",
+      "value": 0.83,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "gyroscope_y",
+      "value": -0.67,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:00Z",
+      "metric": "gyroscope_z",
+      "value": -1.69,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "engine_temp",
+      "value": 698.52,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "fuel_pressure",
+      "value": 2576.23,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "acceleration_x",
+      "value": -0.29,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "acceleration_y",
+      "value": 0.21,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "acceleration_z",
+      "value": 9.88,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "velocity",
+      "value": 50,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "altitude",
+      "value": 500,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "fuel_level",
+      "value": 92.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "battery_voltage",
+      "value": 28.29,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "gyroscope_x",
+      "value": -0.04,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "gyroscope_y",
+      "value": -0.6,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:05:30Z",
+      "metric": "gyroscope_z",
+      "value": 0.13,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "engine_temp",
+      "value": 726.27,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "fuel_pressure",
+      "value": 2411.43,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "acceleration_x",
+      "value": -0.49,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "acceleration_y",
+      "value": 0.36,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "acceleration_z",
+      "value": 9.54,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "velocity",
+      "value": 60,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "altitude",
+      "value": 600,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "fuel_level",
+      "value": 91.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "battery_voltage",
+      "value": 28.67,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "gyroscope_x",
+      "value": 0.25,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "gyroscope_y",
+      "value": 0.58,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:00Z",
+      "metric": "gyroscope_z",
+      "value": 1.52,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "engine_temp",
+      "value": 630.79,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "fuel_pressure",
+      "value": 2429.07,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "acceleration_x",
+      "value": 0.45,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "acceleration_y",
+      "value": 0.11,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "acceleration_z",
+      "value": 9.89,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "velocity",
+      "value": 60,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "altitude",
+      "value": 600,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "fuel_level",
+      "value": 91.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "battery_voltage",
+      "value": 28.56,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "gyroscope_x",
+      "value": 1.95,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "gyroscope_y",
+      "value": 1.99,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:06:30Z",
+      "metric": "gyroscope_z",
+      "value": 0.05,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "engine_temp",
+      "value": 665.73,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "fuel_pressure",
+      "value": 2521.32,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "acceleration_x",
+      "value": -0.32,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "acceleration_y",
+      "value": -0.29,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "acceleration_z",
+      "value": 9.74,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "velocity",
+      "value": 70,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "altitude",
+      "value": 700,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "fuel_level",
+      "value": 89.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "battery_voltage",
+      "value": 28.31,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "gyroscope_x",
+      "value": 0.12,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "gyroscope_y",
+      "value": -0.33,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:00Z",
+      "metric": "gyroscope_z",
+      "value": 0.45,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "engine_temp",
+      "value": 611.19,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "fuel_pressure",
+      "value": 2596.69,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "acceleration_x",
+      "value": 0.17,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "acceleration_y",
+      "value": 0.03,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "acceleration_z",
+      "value": 9.62,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "velocity",
+      "value": 70,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "altitude",
+      "value": 700,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "fuel_level",
+      "value": 89.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "battery_voltage",
+      "value": 28.15,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "gyroscope_x",
+      "value": 0.13,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "gyroscope_y",
+      "value": -0.99,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:07:30Z",
+      "metric": "gyroscope_z",
+      "value": 0.46,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "engine_temp",
+      "value": 719.66,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "fuel_pressure",
+      "value": 2443.87,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "acceleration_x",
+      "value": -0.0,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "acceleration_y",
+      "value": 0.38,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "acceleration_z",
+      "value": 9.59,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "velocity",
+      "value": 80,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "altitude",
+      "value": 800,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "fuel_level",
+      "value": 88.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "battery_voltage",
+      "value": 28.51,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "gyroscope_x",
+      "value": -0.2,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "gyroscope_y",
+      "value": -0.95,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:00Z",
+      "metric": "gyroscope_z",
+      "value": -0.02,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "engine_temp",
+      "value": 632.74,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "fuel_pressure",
+      "value": 2586.16,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "acceleration_x",
+      "value": 0.28,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "acceleration_y",
+      "value": -0.07,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "acceleration_z",
+      "value": 9.84,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "velocity",
+      "value": 80,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "altitude",
+      "value": 800,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "fuel_level",
+      "value": 88.0,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "battery_voltage",
+      "value": 28.33,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "gyroscope_x",
+      "value": -0.2,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "gyroscope_y",
+      "value": -0.68,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:08:30Z",
+      "metric": "gyroscope_z",
+      "value": -1.4,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "engine_temp",
+      "value": 605.63,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "fuel_pressure",
+      "value": 2558.57,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "acceleration_x",
+      "value": 0.25,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "acceleration_y",
+      "value": -0.34,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "acceleration_z",
+      "value": 9.8,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "velocity",
+      "value": 90,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "altitude",
+      "value": 900,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "fuel_level",
+      "value": 86.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "battery_voltage",
+      "value": 28.75,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "gyroscope_x",
+      "value": -0.34,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "gyroscope_y",
+      "value": 1.06,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:00Z",
+      "metric": "gyroscope_z",
+      "value": 1.77,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "engine_temp",
+      "value": 695.8,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "fuel_pressure",
+      "value": 2419.37,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "acceleration_x",
+      "value": -0.19,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "acceleration_y",
+      "value": 0.09,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "acceleration_z",
+      "value": 9.95,
+      "unit": "m/s\u00b2"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "velocity",
+      "value": 90,
+      "unit": "m/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "altitude",
+      "value": 900,
+      "unit": "m"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "fuel_level",
+      "value": 86.5,
+      "unit": "%"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "battery_voltage",
+      "value": 28.73,
+      "unit": "V"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "gyroscope_x",
+      "value": 0.25,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "gyroscope_y",
+      "value": -0.28,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:09:30Z",
+      "metric": "gyroscope_z",
+      "value": -1.13,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:10:00Z",
+      "metric": "engine_temp",
+      "value": 950,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:10:30Z",
+      "metric": "engine_temp",
+      "value": 970,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:11:00Z",
+      "metric": "engine_temp",
+      "value": 990,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:11:30Z",
+      "metric": "engine_temp",
+      "value": 1010,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:12:00Z",
+      "metric": "engine_temp",
+      "value": 1030,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:10:00Z",
+      "metric": "fuel_pressure",
+      "value": 1800,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:10:30Z",
+      "metric": "fuel_pressure",
+      "value": 1700,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:11:00Z",
+      "metric": "fuel_pressure",
+      "value": 1600,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:11:30Z",
+      "metric": "fuel_pressure",
+      "value": 1500,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:12:00Z",
+      "metric": "fuel_pressure",
+      "value": 1400,
+      "unit": "psi"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:10:00Z",
+      "metric": "gyroscope_z",
+      "value": 45,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:10:30Z",
+      "metric": "gyroscope_z",
+      "value": 60,
+      "unit": "deg/s"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-20T08:11:00Z",
+      "metric": "gyroscope_z",
+      "value": 75,
+      "unit": "deg/s"
+    }
+  ]
+}

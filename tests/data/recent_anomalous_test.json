@@ -1,0 +1,304 @@
+{
+  "events": [
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:07.497049Z",
+      "metric": "engine_temp",
+      "value": 2658.4732438065803
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:13.497049Z",
+      "metric": "engine_temp",
+      "value": 2726.776035706832
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:19.497049Z",
+      "metric": "engine_temp",
+      "value": 2733.4324731209363
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:25.497049Z",
+      "metric": "engine_temp",
+      "value": 2598.1556633728596
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:31.497049Z",
+      "metric": "engine_temp",
+      "value": 2494.902072957676
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:37.497049Z",
+      "metric": "engine_temp",
+      "value": 2667.621905869502
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:43.497049Z",
+      "metric": "engine_temp",
+      "value": 2715.50622900144
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:49.497049Z",
+      "metric": "engine_temp",
+      "value": 2682.5759316498315
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:42:55.497049Z",
+      "metric": "engine_temp",
+      "value": 2633.122304763456
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:01.497049Z",
+      "metric": "engine_temp",
+      "value": 2684.4455865030313
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:07.497049Z",
+      "metric": "engine_temp",
+      "value": 3066.151054862331
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:13.497049Z",
+      "metric": "engine_temp",
+      "value": 2722.23315792055
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:19.497049Z",
+      "metric": "engine_temp",
+      "value": 2672.441113586829
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:25.497049Z",
+      "metric": "engine_temp",
+      "value": 2685.3439315777578
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:31.497049Z",
+      "metric": "engine_temp",
+      "value": 2626.057520825291
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:37.497049Z",
+      "metric": "engine_temp",
+      "value": 2699.581804671385
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:43.497049Z",
+      "metric": "engine_temp",
+      "value": 2585.7988034225473
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:49.497049Z",
+      "metric": "engine_temp",
+      "value": 2697.9944723802314
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:43:55.497049Z",
+      "metric": "engine_temp",
+      "value": 2599.817672880604
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:01.497049Z",
+      "metric": "engine_temp",
+      "value": 2598.8408542477287
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:07.497049Z",
+      "metric": "engine_temp",
+      "value": 2690.363574553836
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:13.497049Z",
+      "metric": "engine_temp",
+      "value": 2710.662772580429
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:19.497049Z",
+      "metric": "engine_temp",
+      "value": 2621.3740194536676
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:25.497049Z",
+      "metric": "engine_temp",
+      "value": 2640.5343571144963
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:31.497049Z",
+      "metric": "engine_temp",
+      "value": 2717.878308696838
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:37.497049Z",
+      "metric": "engine_temp",
+      "value": 3249.221668827272
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:43.497049Z",
+      "metric": "engine_temp",
+      "value": 2619.5140726176655
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:49.497049Z",
+      "metric": "engine_temp",
+      "value": 2741.221216820522
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:44:55.497049Z",
+      "metric": "engine_temp",
+      "value": 2676.758353740895
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:01.497049Z",
+      "metric": "engine_temp",
+      "value": 2630.4393485140513
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:07.497049Z",
+      "metric": "engine_temp",
+      "value": 2622.8675348865004
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:13.497049Z",
+      "metric": "engine_temp",
+      "value": 2704.179757710057
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:19.497049Z",
+      "metric": "engine_temp",
+      "value": 2585.2447063980785
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:25.497049Z",
+      "metric": "engine_temp",
+      "value": 2619.1668409996146
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:31.497049Z",
+      "metric": "engine_temp",
+      "value": 2698.5890063382794
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:37.497049Z",
+      "metric": "engine_temp",
+      "value": 2698.647905185673
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:43.497049Z",
+      "metric": "engine_temp",
+      "value": 2666.8521207883514
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:49.497049Z",
+      "metric": "engine_temp",
+      "value": 2666.230009845191
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:45:55.497049Z",
+      "metric": "engine_temp",
+      "value": 2489.376103015048
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:01.497049Z",
+      "metric": "engine_temp",
+      "value": 2666.002613084829
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:07.497049Z",
+      "metric": "engine_temp",
+      "value": 3241.4649745848965
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:13.497049Z",
+      "metric": "engine_temp",
+      "value": 2630.4514238746533
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:19.497049Z",
+      "metric": "engine_temp",
+      "value": 2588.6806260490716
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:25.497049Z",
+      "metric": "engine_temp",
+      "value": 2716.5508397147973
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:31.497049Z",
+      "metric": "engine_temp",
+      "value": 2623.6141082473036
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:37.497049Z",
+      "metric": "engine_temp",
+      "value": 2660.3988257388296
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:43.497049Z",
+      "metric": "engine_temp",
+      "value": 2688.594262061247
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:49.497049Z",
+      "metric": "engine_temp",
+      "value": 2616.87652335037
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:46:55.497049Z",
+      "metric": "engine_temp",
+      "value": 2697.565654400806
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-19T21:47:01.497049Z",
+      "metric": "engine_temp",
+      "value": 2613.2795364392623
+    }
+  ]
+}

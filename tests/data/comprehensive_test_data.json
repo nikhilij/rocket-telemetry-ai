@@ -1,0 +1,88 @@
+{
+    "events": [
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "engine_temp",
+            "value": 650.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "fuel_pressure",
+            "value": 2500.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "acceleration_x",
+            "value": 0.0,
+            "unit": "m/s²"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "acceleration_y",
+            "value": 0.0,
+            "unit": "m/s²"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "acceleration_z",
+            "value": 9.81,
+            "unit": "m/s²"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "velocity",
+            "value": 0.0,
+            "unit": "m/s"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "altitude",
+            "value": 0.0,
+            "unit": "m"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "fuel_level",
+            "value": 100.0,
+            "unit": "%"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "battery_voltage",
+            "value": 28.5,
+            "unit": "V"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "gyroscope_x",
+            "value": 0.0,
+            "unit": "deg/s"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "gyroscope_y",
+            "value": 0.0,
+            "unit": "deg/s"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-20T08:00:00Z",
+            "metric": "gyroscope_z",
+            "value": 0.0,
+            "unit": "deg/s"
+        }
+    ]
+}

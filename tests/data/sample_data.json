@@ -1,0 +1,18 @@
+{
+    "events": [
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-19T01:00:00Z",
+            "metric": "temperature",
+            "value": 650.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-19T01:01:00Z",
+            "metric": "pressure",
+            "value": 1013.0,
+            "unit": "hPa"
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+# Test artifacts and temporary files
+*.log
+*.tmp
+*.pyc
+__pycache__/
+*.pytest_cache/
+
+# Generated test data (if you want to regenerate)
+# Uncomment the lines below if you want to ignore generated data files
+# test_data_*.json
+# recent_*.json
+# full_window_*.json
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+venv
+
+venv/
+.env
+.env.local
+.env.*.local
