@@ -7,7 +7,7 @@ from sqlalchemy.orm import Session
 from typing import List, Optional
 from datetime import datetime, timezone
 
-from . import crud, models, schemas, db
+from . import crud, models, schemas, db, config
 
 # Create all tables in the database.
 # In a production app, you might want to use Alembic for migrations.
@@ -49,17 +49,21 @@ def ingest_telemetry(
         # failure to enqueue is captured in the response errors but does NOT roll back
         # ingestion. The Celery worker must be running separately for tasks to execute.
         errors: List[str] = []
-        unique_pairs = {(e.asset_id, e.metric) for e in request.events}
-        for asset_id, metric in unique_pairs:
-            try:
-                # Local import to avoid potential circulars and keep worker optional
-                from .worker import detect_anomalies
+        if config.AUTO_ENQUEUE_ANOMALY:
+            unique_pairs = {(e.asset_id, e.metric) for e in request.events}
+            for asset_id, metric in unique_pairs:
+                try:
+                    # Local import to avoid potential circulars and keep worker optional
+                    from .worker import detect_anomalies
 
-                detect_anomalies.delay(asset_id, metric)
-            except Exception as ex:
-                errors.append(
-                    f"Failed to enqueue anomaly detection for {asset_id}/{metric}: {ex}"
-                )
+                    detect_anomalies.delay(asset_id, metric)
+                except Exception as ex:
+                    errors.append(
+                        f"Failed to enqueue anomaly detection for {asset_id}/{metric}: {ex}"
+                    )
+        else:
+            # Explicitly note skipped auto-enqueue for transparency.
+            errors.append("AUTO_ENQUEUE_ANOMALY disabled; no anomaly tasks enqueued.")
 
         return schemas.TelemetryIngestResponse(ingested=num_ingested, errors=errors)
     except Exception as e:

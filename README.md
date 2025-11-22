@@ -105,7 +105,72 @@ CELERY_RESULT_BACKEND=redis://localhost:6379/0
 ANOMALY_Z_SCORE_THRESHOLD=3.0
 ANOMALY_WINDOW_SIZE_SECONDS=600
 SUMMARY_WINDOW_MINUTES=60
+AUTO_ENQUEUE_ANOMALY=true            # Toggle auto enqueue after ingestion (default true)
+ANOMALY_SCHEDULE_ENABLED=false       # Enable periodic anomaly scans (Celery Beat)
+ANOMALY_SCHEDULE_INTERVAL_SECONDS=300 # Interval between scans when enabled
 ```
+
+### 4. Enable Periodic Anomaly Scanning (Optional)
+
+You can have the system autonomously scan all assets/metrics at a fixed interval without relying solely on ingestion-triggered detection.
+
+#### Environment Variables
+
+```env
+ANOMALY_SCHEDULE_ENABLED=true
+ANOMALY_SCHEDULE_INTERVAL_SECONDS=300  # Every 5 minutes
+AUTO_ENQUEUE_ANOMALY=true               # (Optional) keep ingest-trigger active
+```
+
+#### Running Celery With Beat (Windows PowerShell)
+
+```powershell
+# Set env vars for current session (or put them in .env)
+$env:ANOMALY_SCHEDULE_ENABLED="true"
+$env:ANOMALY_SCHEDULE_INTERVAL_SECONDS="300"
+
+# Start API
+uvicorn app.main:app --reload
+
+# Start Celery worker WITH beat scheduling
+celery -A app.worker.celery_app worker --loglevel=info --beat
+```
+
+If you prefer separate processes:
+
+```powershell
+celery -A app.worker.celery_app beat --loglevel=info
+celery -A app.worker.celery_app worker --loglevel=info
+```
+
+#### What the Scheduler Does
+
+- Periodically runs `scan_all_assets_for_anomalies`
+- Enumerates recent distinct `(asset_id, metric)` pairs
+- Enqueues `detect_anomalies` tasks for each
+- Honors the same rolling window defined by `ANOMALY_WINDOW_SIZE_SECONDS`
+
+#### Manual Trigger (For Testing)
+
+```powershell
+celery -A app.worker.celery_app call app.worker.scan_all_assets_for_anomalies
+```
+
+#### Disabling Behaviors
+
+| Behavior                     | How to Disable                   |
+| ---------------------------- | -------------------------------- |
+| Auto enqueue after ingestion | `AUTO_ENQUEUE_ANOMALY=false`     |
+| Periodic scheduling          | `ANOMALY_SCHEDULE_ENABLED=false` |
+
+#### Logs
+
+Look for log prefixes:
+
+- `[scheduler]` – periodic scan decisions & counts
+- `[anomaly]` – individual anomaly evaluation & summaries
+
+These help distinguish scheduling flow from anomaly computations.
 
 ## Database Architecture
 

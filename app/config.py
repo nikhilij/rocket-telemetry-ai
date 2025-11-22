@@ -30,6 +30,25 @@ ANOMALY_WINDOW_SIZE_SECONDS = int(
     os.getenv("ANOMALY_WINDOW_SIZE_SECONDS", 600)
 )  # 10 minutes
 
+
+# Helper to parse boolean-like environment variables robustly.
+def _parse_bool(value: str, default: bool) -> bool:
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "on"}
+
+
+# Toggle automatic enqueue of anomaly detection after ingestion.
+AUTO_ENQUEUE_ANOMALY = _parse_bool(os.getenv("AUTO_ENQUEUE_ANOMALY"), True)
+
+# Enable periodic scheduling of anomaly scans (Celery Beat required).
+ANOMALY_SCHEDULE_ENABLED = _parse_bool(os.getenv("ANOMALY_SCHEDULE_ENABLED"), False)
+
+# Interval (seconds) between scheduled anomaly scans when enabled.
+ANOMALY_SCHEDULE_INTERVAL_SECONDS = int(
+    os.getenv("ANOMALY_SCHEDULE_INTERVAL_SECONDS", 300)
+)
+
 # --- LangChain/Agent Configuration ---
 # Google API Key for Gemini
 _google_key = os.getenv("GOOGLE_API_KEY")

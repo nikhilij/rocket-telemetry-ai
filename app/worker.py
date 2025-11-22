@@ -21,6 +21,21 @@ logger = get_task_logger(__name__)
 # Configure pool for Windows compatibility
 celery_app.conf.update(worker_pool="solo" if os.name == "nt" else "prefork")
 
+# Configure periodic scheduling (Celery Beat) if enabled via config.
+if config.ANOMALY_SCHEDULE_ENABLED:
+    celery_app.conf.beat_schedule = {
+        "scan-all-assets-for-anomalies": {
+            "task": "app.worker.scan_all_assets_for_anomalies",
+            "schedule": config.ANOMALY_SCHEDULE_INTERVAL_SECONDS,
+        }
+    }
+    logger.info(
+        "[scheduler] beat_schedule enabled interval=%ds",
+        config.ANOMALY_SCHEDULE_INTERVAL_SECONDS,
+    )
+else:
+    logger.info("[scheduler] beat_schedule disabled")
+
 
 @celery_app.task(name="app.worker.detect_anomalies")
 def detect_anomalies(asset_id: str, metric: str):
@@ -118,5 +133,47 @@ def detect_anomalies(asset_id: str, metric: str):
         logger.info("[anomaly] summary %s", msg)
         return msg
 
+    finally:
+        db.close()
+
+
+@celery_app.task(name="app.worker.scan_all_assets_for_anomalies")
+def scan_all_assets_for_anomalies():
+    """
+    Periodic task that enumerates distinct (asset_id, metric) pairs and enqueues
+    anomaly detection tasks for each. Requires ANOMALY_SCHEDULE_ENABLED True and
+    Celery Beat running. Uses ANOMALY_WINDOW_SIZE_SECONDS to limit scan to recent
+    telemetry so we don't schedule stale metrics.
+    """
+    db: Session = SessionLocal()
+    try:
+        pairs = crud.get_distinct_asset_metric_pairs(
+            db, window_seconds=config.ANOMALY_WINDOW_SIZE_SECONDS
+        )
+        if not pairs:
+            logger.info(
+                "[scheduler] no distinct asset/metric pairs found in recent window_seconds=%d",
+                config.ANOMALY_WINDOW_SIZE_SECONDS,
+            )
+            return "No recent asset/metric pairs to scan."
+        enqueued = 0
+        for asset_id, metric in pairs:
+            try:
+                detect_anomalies.delay(asset_id, metric)
+                enqueued += 1
+            except Exception as ex:
+                logger.warning(
+                    "[scheduler] failed enqueue asset=%s metric=%s error=%s",
+                    asset_id,
+                    metric,
+                    ex,
+                )
+        logger.info(
+            "[scheduler] enqueued=%d pairs=%d window_seconds=%d",
+            enqueued,
+            len(pairs),
+            config.ANOMALY_WINDOW_SIZE_SECONDS,
+        )
+        return f"Enqueued {enqueued} anomaly detection tasks from {len(pairs)} distinct pairs."
     finally:
         db.close()

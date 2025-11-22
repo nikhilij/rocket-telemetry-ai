@@ -5,7 +5,7 @@ CRUD (Create, Read, Update, Delete) operations for the database.
 from sqlalchemy.orm import Session
 from . import models, schemas
 from typing import List
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 
 def create_telemetry_events(
@@ -52,6 +52,25 @@ def get_telemetry_events_by_metric(
         .order_by(models.TelemetryEvent.timestamp.asc())
         .all()
     )
+
+
+def get_distinct_asset_metric_pairs(
+    db: Session, window_seconds: int | None = None
+) -> List[tuple[str, str]]:
+    """
+    Returns distinct (asset_id, metric) pairs from telemetry events.
+
+    If window_seconds is provided, limits the scan to events whose timestamp is
+    within the recent window to avoid enqueueing outdated metrics.
+    """
+    query = db.query(
+        models.TelemetryEvent.asset_id, models.TelemetryEvent.metric
+    ).distinct()
+    if window_seconds is not None and window_seconds > 0:
+        cutoff = datetime.now(timezone.utc) - timedelta(seconds=window_seconds)
+        query = query.filter(models.TelemetryEvent.timestamp >= cutoff)
+    rows = query.all()
+    return [(asset_id, metric) for asset_id, metric in rows]
 
 
 def create_anomaly_record(
