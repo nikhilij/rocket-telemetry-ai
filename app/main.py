@@ -5,7 +5,7 @@ Main FastAPI application.
 from fastapi import FastAPI, Depends, HTTPException, Query
 from sqlalchemy.orm import Session
 from typing import List, Optional
-from datetime import datetime
+from datetime import datetime, timezone
 
 from . import crud, models, schemas, db
 
@@ -43,7 +43,25 @@ def ingest_telemetry(
         num_ingested = crud.create_telemetry_events(
             db=database, events=events_to_create
         )
-        return schemas.TelemetryIngestResponse(ingested=num_ingested)
+
+        # After successful ingestion, enqueue anomaly detection tasks for each unique
+        # (asset_id, metric) pair present in the batch. This is fire-and-forget; any
+        # failure to enqueue is captured in the response errors but does NOT roll back
+        # ingestion. The Celery worker must be running separately for tasks to execute.
+        errors: List[str] = []
+        unique_pairs = {(e.asset_id, e.metric) for e in request.events}
+        for asset_id, metric in unique_pairs:
+            try:
+                # Local import to avoid potential circulars and keep worker optional
+                from .worker import detect_anomalies
+
+                detect_anomalies.delay(asset_id, metric)
+            except Exception as ex:
+                errors.append(
+                    f"Failed to enqueue anomaly detection for {asset_id}/{metric}: {ex}"
+                )
+
+        return schemas.TelemetryIngestResponse(ingested=num_ingested, errors=errors)
     except Exception as e:
         # In a real app, log the exception details
         raise HTTPException(status_code=500, detail=f"Internal Server Error: {str(e)}")
@@ -93,7 +111,8 @@ def get_anomalies(
     """
     try:
         if until is None:
-            until = datetime.utcnow()
+            # Use timezone-aware UTC to match stored TIMESTAMPTZ values
+            until = datetime.now(timezone.utc)
         anomalies = crud.get_anomalies_by_asset(database, asset_id, since, until)
         return anomalies
     except Exception as e:
