@@ -59,7 +59,20 @@ def create_anomaly_record(
 ) -> models.AnomalyRecord:
     """
     Creates a new anomaly record in the database.
+
+    Dedup strategy: If an anomaly already exists for the same telemetry_id
+    we return the existing record instead of inserting a duplicate. This
+    prevents repeated anomaly rows when the detection window reprocesses
+    unchanged outlier telemetry events.
     """
+    if anomaly.telemetry_id:
+        existing = (
+            db.query(models.AnomalyRecord)
+            .filter(models.AnomalyRecord.telemetry_id == anomaly.telemetry_id)
+            .first()
+        )
+        if existing:
+            return existing
     db_anomaly = models.AnomalyRecord(**anomaly.dict())
     db.add(db_anomaly)
     db.commit()
