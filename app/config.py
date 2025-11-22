@@ -25,7 +25,7 @@ CELERY_BROKER_URL = os.getenv("CELERY_BROKER_URL", "redis://localhost:6379/0")
 CELERY_RESULT_BACKEND = os.getenv("CELERY_RESULT_BACKEND", "redis://localhost:6379/0")
 
 # --- Anomaly Detection Configuration ---
-ANOMALY_Z_SCORE_THRESHOLD = float(os.getenv("ANOMALY_Z_SCORE_THRESHOLD", 3.0))
+ANOMALY_Z_SCORE_THRESHOLD = float(os.getenv("ANOMALY_Z_SCORE_THRESHOLD", 2.0))
 ANOMALY_WINDOW_SIZE_SECONDS = int(
     os.getenv("ANOMALY_WINDOW_SIZE_SECONDS", 600)
 )  # 10 minutes

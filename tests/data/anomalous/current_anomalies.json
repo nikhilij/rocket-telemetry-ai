@@ -1,0 +1,81 @@
+{
+  "events": [
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:41:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 500.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:40:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 505.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:39:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 510.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:38:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 515.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:37:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 520.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:36:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 525.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:35:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 530.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:34:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 535.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:33:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 1500.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:32:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 510.0,
+      "unit": "C"
+    },
+    {
+      "asset_id": "rocket-1",
+      "timestamp": "2025-11-22T04:31:28.321429+00:00",
+      "metric": "engine_temp",
+      "value": 510.0,
+      "unit": "C"
+    }
+  ]
+}

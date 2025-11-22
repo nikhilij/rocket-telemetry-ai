@@ -4,7 +4,7 @@ CRUD (Create, Read, Update, Delete) operations for the database.
 
 from sqlalchemy.orm import Session
 from . import models, schemas
-from typing import List
+from typing import List, Optional
 from datetime import datetime
 
 
@@ -77,32 +77,29 @@ def create_anomaly_record(
 
 
 def get_anomalies_by_asset(
-    db: Session, asset_id: str, start_time: datetime, end_time: datetime
+    db: Session, asset_id: Optional[str], start_time: datetime, end_time: datetime
 ) -> List[models.AnomalyRecord]:
     """
-    Retrieves anomaly records for a specific asset and time window.
+    Retrieves anomaly records for a specific asset (or all if None) and time window.
     """
-    return (
-        db.query(models.AnomalyRecord)
-        .filter(
-            models.AnomalyRecord.asset_id == asset_id,
-            models.AnomalyRecord.timestamp >= start_time,
-            models.AnomalyRecord.timestamp <= end_time,
-        )
-        .order_by(models.AnomalyRecord.timestamp.desc())
-        .all()
+    query = db.query(models.AnomalyRecord).filter(
+        models.AnomalyRecord.timestamp >= start_time,
+        models.AnomalyRecord.timestamp <= end_time,
     )
+    if asset_id:
+        query = query.filter(models.AnomalyRecord.asset_id == asset_id)
+    return query.order_by(models.AnomalyRecord.timestamp.desc()).all()
 
 
 def get_unique_assets_and_metrics(db: Session) -> List[dict]:
     """
     Retrieves unique combinations of asset_id and metric from telemetry events.
     """
-    from sqlalchemy import distinct
-
-    results = db.query(
-        distinct(models.TelemetryEvent.asset_id), distinct(models.TelemetryEvent.metric)
-    ).all()
+    results = (
+        db.query(models.TelemetryEvent.asset_id, models.TelemetryEvent.metric)
+        .distinct()
+        .all()
+    )
     return [{"asset_id": row[0], "metric": row[1]} for row in results]
 
 

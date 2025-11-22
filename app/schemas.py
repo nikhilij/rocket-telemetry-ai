@@ -73,9 +73,9 @@ class SummaryResponse(BaseModel):
 
 
 class AskRequest(BaseModel):
-    asset_id: str
     question: str
-    window_minutes: int = 10
+    asset_id: Optional[str] = None
+    window_minutes: Optional[int] = None
 
 
 class AskResponse(BaseModel):

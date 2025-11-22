@@ -1,0 +1,158 @@
+{
+    "events": [
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:00:00Z",
+            "metric": "engine_temp",
+            "value": 500.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:01:00Z",
+            "metric": "engine_temp",
+            "value": 505.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:02:00Z",
+            "metric": "engine_temp",
+            "value": 510.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:03:00Z",
+            "metric": "engine_temp",
+            "value": 515.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:04:00Z",
+            "metric": "engine_temp",
+            "value": 520.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:05:00Z",
+            "metric": "engine_temp",
+            "value": 525.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:06:00Z",
+            "metric": "engine_temp",
+            "value": 530.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:07:00Z",
+            "metric": "engine_temp",
+            "value": 1200.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:08:00Z",
+            "metric": "engine_temp",
+            "value": 1500.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:09:00Z",
+            "metric": "engine_temp",
+            "value": 540.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:10:00Z",
+            "metric": "engine_temp",
+            "value": 545.0,
+            "unit": "C"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:00:00Z",
+            "metric": "fuel_pressure",
+            "value": 2500.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:01:00Z",
+            "metric": "fuel_pressure",
+            "value": 2510.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:02:00Z",
+            "metric": "fuel_pressure",
+            "value": 2520.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:03:00Z",
+            "metric": "fuel_pressure",
+            "value": 2530.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:04:00Z",
+            "metric": "fuel_pressure",
+            "value": 2540.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:05:00Z",
+            "metric": "fuel_pressure",
+            "value": 2550.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:06:00Z",
+            "metric": "fuel_pressure",
+            "value": 2560.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:07:00Z",
+            "metric": "fuel_pressure",
+            "value": 5000.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:08:00Z",
+            "metric": "fuel_pressure",
+            "value": 2580.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:09:00Z",
+            "metric": "fuel_pressure",
+            "value": 2590.0,
+            "unit": "psi"
+        },
+        {
+            "asset_id": "rocket-1",
+            "timestamp": "2025-11-22T09:10:00Z",
+            "metric": "fuel_pressure",
+            "value": 2600.0,
+            "unit": "psi"
+        }
+    ]
+}

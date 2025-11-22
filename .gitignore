@@ -1,15 +1,23 @@
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.pytest_cache/
+*.egg-info/
+dist/
+build/
+
 # Test artifacts and temporary files
 *.log
 *.tmp
-*.pyc
-__pycache__/
-*.pytest_cache/
+.tmp_*
 
-# Generated test data (if you want to regenerate)
-# Uncomment the lines below if you want to ignore generated data files
-# test_data_*.json
-# recent_*.json
-# full_window_*.json
+# Celery and Redis artifacts (regenerated at runtime)
+celerybeat-schedule*
+celerybeat.pid
+dump.rdb
+*.rdb
 
 # Coverage reports
 .coverage
@@ -25,9 +33,19 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-venv
-
+# Environment
 venv/
+env/
 .env
 .env.local
 .env.*.local
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated images
+*.png
+*.jpg
+*.jpeg

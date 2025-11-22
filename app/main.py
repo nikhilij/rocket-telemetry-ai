@@ -92,8 +92,18 @@ def get_anomalies(
     Returns anomaly records for an asset in a time range.
     """
     try:
+        from datetime import timezone
+        
+        # Ensure since is timezone-aware
+        if since.tzinfo is None:
+            since = since.replace(tzinfo=timezone.utc)
+        
+        # Default until to current time (timezone-aware)
         if until is None:
-            until = datetime.utcnow()
+            until = datetime.now(timezone.utc)
+        elif until.tzinfo is None:
+            until = until.replace(tzinfo=timezone.utc)
+        
         anomalies = crud.get_anomalies_by_asset(database, asset_id, since, until)
         return anomalies
     except Exception as e:

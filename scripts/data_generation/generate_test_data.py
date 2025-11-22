@@ -2,6 +2,9 @@
 """
 Comprehensive test data generator for Rocket Telemetry AI system.
 Generates realistic rocket telemetry data for testing.
+
+Usage:
+    python scripts/data_generation/generate_test_data.py
 """
 
 import json
