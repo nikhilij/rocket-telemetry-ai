@@ -16,7 +16,6 @@ celery_app = Celery(
     "worker", broker=config.CELERY_BROKER_URL, backend=config.CELERY_RESULT_BACKEND
 )
 
-celery_app.config_from_object("app.celeryconfig")
 # Configure pool for Windows compatibility
 celery_app.conf.update(worker_pool="solo" if os.name == "nt" else "prefork")
 
@@ -82,22 +81,5 @@ def detect_anomalies(asset_id: str, metric: str):
 
         return f"No anomalies detected for {asset_id}/{metric}."
 
-    finally:
-        db.close()
-
-
-@celery_app.task(name="app.worker.run_anomaly_detection")
-def run_anomaly_detection():
-    """
-    Periodic task to run anomaly detection for all assets and metrics.
-    """
-    db: Session = SessionLocal()
-    try:
-        asset_metrics = crud.get_unique_assets_and_metrics(db)
-        for item in asset_metrics:
-            detect_anomalies.delay(item["asset_id"], item["metric"])
-        return (
-            f"Scheduled anomaly detection for {len(asset_metrics)} asset-metric pairs."
-        )
     finally:
         db.close()

@@ -58,8 +58,17 @@ def create_anomaly_record(
     db: Session, anomaly: schemas.AnomalyRecordCreate
 ) -> models.AnomalyRecord:
     """
-    Creates a new anomaly record in the database.
+    Creates a new anomaly record in the database, if one doesn't already exist for the telemetry_id.
     """
+    # Check if anomaly already exists for this telemetry event
+    existing = (
+        db.query(models.AnomalyRecord)
+        .filter(models.AnomalyRecord.telemetry_id == anomaly.telemetry_id)
+        .first()
+    )
+    if existing:
+        return existing  # Return existing record without creating duplicate
+
     db_anomaly = models.AnomalyRecord(**anomaly.dict())
     db.add(db_anomaly)
     db.commit()
@@ -83,6 +92,18 @@ def get_anomalies_by_asset(
         .order_by(models.AnomalyRecord.timestamp.desc())
         .all()
     )
+
+
+def get_unique_assets_and_metrics(db: Session) -> List[dict]:
+    """
+    Retrieves unique combinations of asset_id and metric from telemetry events.
+    """
+    from sqlalchemy import distinct
+
+    results = db.query(
+        distinct(models.TelemetryEvent.asset_id), distinct(models.TelemetryEvent.metric)
+    ).all()
+    return [{"asset_id": row[0], "metric": row[1]} for row in results]
 
 
 def get_telemetry_for_agent(
